@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+    #navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  
+}
+.contents {
+    text-align: center;
+}
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+section li {
+  margin: 15px 0px 0px 20px;
+}
+.li {
+  margin: 15px 0px 0px 0px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+a.nav-link:hover {color: blue;}
+
+    #scroll-container {
+      height: 100%;
+      overflow: auto;
+      border: 1px solid #ccc;
+    }
+    
+
+</style>
+<body>
+  
+    <nav id="navbar">
+      <div id="scroll-container">
+        <header>User Guides</header>
+       <h3 class="contents"><a class="nav-link" href="#intro">Contents of This Chapter</a></h3>
+       <h4 class="contents"><a class="nav-link" href="#style-and-format">Style and Format for User Guides</a></h4>
+       <ul class="li">
+            <li><a class="nav-link" href="#headings">Headings</a></li>
+            <li><a class="nav-link" href="#lists">Lists</a></li>
+            <li><a class="nav-link" href="#special">Special notices</a></li>
+            <li><a class="nav-link" href="#instructional">Instructional design</a></li>
+            <li><a class="nav-link" href="#graphics">Graphics</a></li>
+            <li><a class="nav-link" href="#tables">Tables</a></li>
+            <li><a class="nav-link" href="#highlighting">Highlighting</a></li>
+       </ul>
+       <h4 class="contents"><a class="nav-link" href="#components">Components of User Guides</a></h4>
+       <ul class="li">
+            <li><a class="nav-link" href="#front">Front and back covers</a></li>
+            <li><a class="nav-link" href="#title">Title page</a></li>
+            <li><a class="nav-link" href="#edition">Edition notice</a></li>
+            <li><a class="nav-link" href="#trademarks">Trademarks</a></li>
+            <li><a class="nav-link" href="#disclaimers">Disclaimers</a></li>
+            <li><a class="nav-link" href="#warranties">Warranties</a></li>
+            <li><a class="nav-link" href="#license">License agreements</a></li>
+            <li><a class="nav-link" href="#safety">Safety notices</a></li>
+            <li><a class="nav-link" href="#preface">Preface</a></li>
+            <li><a class="nav-link" href="#appendixes">Appendixes</a></li>
+            <li><a class="nav-link" href="#glossary">Glossary</a></li>
+            <li><a class="nav-link" href="#index">Index</a></li>
+       </ul>
+       <h4 class="contents"><a class="nav-link" href="#information">Information Included in User Guides</a></h4>
+       <ul class="li">
+            <li><a class="nav-link" href="#instructions">Instructions</a></li>
+            <li><a class="nav-link" href="#precautionary">Precautionary information</a></li>
+            <li><a class="nav-link" href="#reference">Reference information</a></li>
+            <li><a class="nav-link" href="#getting">Getting-started information</a></li>
+            <li><a class="nav-link" href="#about">About the product</a></li>
+            <li><a class="nav-link" href="#technical">Technical background</a></li>
+       </ul>
+      </div>
+    </nav>
+    
+        <main id="main-doc">
+        <section class="main-section">
+            <header id="intro">Introduction</header>
+            <article>
+                <p>A user guide is essentially a book-length document containing instructions on installing, using, or troubleshooting a hardware or software product. A user guide can be very brief—for example, only 10 or 20 pages or it can be a full-length book of 200 pages or more. While this definition assumes computers, a user guide can provide operating instructions on practically anything—lawnmowers, microwave ovens, dishwashers, and so on.</p>
+                <p>The more complex the product, the greater the page count. When this happens, some elements of the user guide get split out into their own separate volumes—especially the installation procedures, troubleshooting procedures, and the commands. A user guide can even contain a brief tutorial—for example, getting users started using the product—but if there is too much tutorial, it too goes into a separate book.</p>
+            </article>
+        </section>
+        <section class="main-section">
+        <header id="style-and-format">Style and Format for User Guides</header>
+        <article>
+                <p>A user guide is a combination of many things presented in this online textbook. At its core is instruction writing; you need to be good at the writing style, headings, lists, notices, highlighting, tables, graphics commonly used in instructions. (For an overview of these elements, see the page-design chapter in this online textbook.) As a set of instructions, a user guide should use the style and format that is presented elsewhere in this online textbook</p>
+                <ul>
+                    <li id="headings">Headings. Use headings to mark off key contents of the information so that readers can find it quickly. See the chapter on headings for details on planning and designing headings.</li>
+                    <li id="lists">Lists. Use numbered and bulleted lists to help readers scan information quickly. See the chapter on lists for details on planning and designing lists.</li>
+                    <li id="special">Special notices. Use special notices such as warnings, cautions, and notes to alert readers to potential problems or emphasize special points. See the chapter on notices for details on planning and designing notices.</li>     
+                    <li id="instructional">Instructional design. In general, use the standard design of instructions; primarily, this means task-oriented headings and sections and numbered vertical lists for actual steps that readers are to perform. See the chapter on instructions for details on planning and designing instructions.</li>
+                <p>Instructions—and therefore user guides—also make abundant use of:</p>
+                    <li id="graphics">Graphics. Show readers key components of the objects they will be working with, before and after views, and illustrations of key actions that readers must perform. See the chapter on graphics for details on planning and designing graphics.
+                    </li>
+                    <li id="tables">Tables. Provide statistical information and other such details in easy-to-access table form. In user guides, tables are particularly useful whenever reference-type information must be presented. See the chapter on tables for details on planning and designing tables.
+                    </li>
+                    <li id="Highlighting">Highlighting. Use a consistent and standard scheme of highlighting (bold, italics, alternate fonts, color, caps, and so on). See the chapter on highlighting for details on planning and designing highlighting guidelines.</li>
+            </ul>
+            </article>
+        </section>
+        <section class="main-section">
+            <header id="components">Components of User Guides</header>
+            <article>
+                <p>As a book, a user guide must have some combination of the standard book-design components such as the following:</p>
+                <ul>
+                    <li id="front">Front and covers</li>
+                    <li id="title">Title page</li>
+                    <li id="edition">Edition notice</li>
+                    <li id="trademarks">Trademarks</li>
+                    <li id="disclaimers">Disclaimers</li>
+                    <li id="warranties">Warranties</li>
+                    <li id="license">License</li>
+                    <li id="safety">Safety notices</li>
+                    <li id="preface">Preface</li>
+                    <li id="appendixes">Appendixes</li>
+                    <li id="glossary">Glossary</li>
+                    <li id="index">Index</li>
+                    <li>Reader-comment form</li>
+                <p>There is no standard combination or sequence of these elements; every company does it differently. Details on the contents, format, and design of these elements can be found in the book-design chapter.</p>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section">
+          <header id="information">Information Included in User Guides</header>
+          <article>
+            <p>Here's review the common contents of user guides:</p>
+            <ul>
+                <li id="instructions">Instructions. The most obvious are those step-by-step directions on how to assemble, operate, or troubleshoot the product. Instructions in user guide should generally be task-oriented—that is, written for specific tasks that users must perform. Instructions should generally use vertical numbered lists for actions that must be performed in a required sequence. Similar or closely related instructions in user guides should be grouped into chapters.</li>
+                <li id="precautionary">Precautionary information. You'll see notes, warning, caution, and even danger notices in user guides. These represent liability concerns for the manufacturer of the product.</li>
+                <li id="reference">Reference information. User guides typically contain plenty of reference information, but only up to a certain point. For example, if there are numerous commands, a separate book for commands is necessary. Reference information in user guides is often presented in tables: columnar lists of settings, descriptions, variables, parameters, flags, and so on.</li>
+                <li id="getting">Getting-started information. Some user guides will actually include brief tutorials that will help new users get acquainted with using the product.</li>
+                <li id="about">About the product. User guides also provide some description of the product, a review of its essential features or its new features. Sometimes this information also gets put into a separate volume, if it is extensive. Typically, the volume will be called something like "Introducing New Product...."</li>
+                <li id="technical">Technical background. Sometimes, users guides will include technical explanations of how the product works, what physical or chemical principles are essential to its operation, and so on. For example, you will see considerable background in user guides for graphic or audio programs—you can't operate them without understanding the concepts of brightness, saturation, and hue; μ law, A law, and other such.</li>
+            </ul>
+          </article>
+        </section>
+    </main>
+</body>
+</html>
